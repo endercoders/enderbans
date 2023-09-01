@@ -1,0 +1,4 @@
+name: enderbans
+version: '${project.version}'
+main: pl.endercoders.enderbans.Enderbans
+api-version: '1.19'
