@@ -12,8 +12,10 @@
   <name>enderbans</name>
 
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <org.snakeyaml.version>2.0</org.snakeyaml.version>
   </properties>
 
   <build>
@@ -69,6 +71,11 @@
           <artifactId>spigot-api</artifactId>
           <version>1.19.2-R0.1-SNAPSHOT</version>
           <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.yaml</groupId>
+          <artifactId>snakeyaml</artifactId>
+          <version>${org.snakeyaml.version}</version>
       </dependency>
   </dependencies>
 </project>
